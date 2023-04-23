@@ -11,8 +11,11 @@ Required Python packages: pandas, requests, zipfile, xmltodict, boto3
 
 # Files
 manager.py: Acts as a manager that runs the entire program as one.
+
 function.py: Contains all the functions required to perform the task.
+
 logger.py: Used for creating logs.
+
 unittest.py: A testing file for the tasks.
 
 # Configuration

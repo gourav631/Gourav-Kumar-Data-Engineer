@@ -1,0 +1,238 @@
+2023-04-23 16:29:35,569 : INFO : tempCodeRunnerFile : load_config : loading Config file.
+2023-04-23 16:29:35,569 : INFO : tempCodeRunnerFile : load_config : Config file loaded successfully.
+2023-04-23 16:29:35,569 : INFO : tempCodeRunnerFile : main : Extracting xml source file url
+2023-04-23 16:29:35,569 : INFO : tempCodeRunnerFile : main : Extracting csv file path
+2023-04-23 16:29:35,569 : INFO : tempCodeRunnerFile : main : Extracting xml file download path
+2023-04-23 16:29:35,569 : INFO : tempCodeRunnerFile : main : Extracting AWS s3 bucket resource information
+2023-04-23 16:29:35,571 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 16:29:35,571 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 16:29:37,394 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 16:29:37,400 : INFO : tempCodeRunnerFile : main : Calling parse_source_xml function
+2023-04-23 16:29:37,400 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 16:29:37,400 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 16:29:37,400 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 16:29:37,400 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 16:29:37,400 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 16:29:37,400 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 16:29:37,400 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 16:29:37,400 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 16:29:37,400 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 16:29:50,446 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 16:29:50,446 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 16:29:51,182 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 16:29:51,182 : INFO : tempCodeRunnerFile : main : Calling create csv function
+2023-04-23 16:29:51,182 : INFO : helper_functions : create_csv : Creating CSV file path
+2023-04-23 16:29:51,182 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 16:29:53,400 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 16:29:53,400 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 16:30:05,081 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 16:30:05,692 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 16:30:05,976 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 16:30:06,849 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 16:30:07,267 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Invalid endpoint: https://s3..amazonaws.com
+2023-04-23 22:36:51,046 : INFO : tempCodeRunnerFile : load_config : loading Config file.
+2023-04-23 22:36:51,046 : INFO : tempCodeRunnerFile : load_config : Config file loaded successfully.
+2023-04-23 22:36:51,046 : INFO : tempCodeRunnerFile : main : Extracting xml source file url
+2023-04-23 22:36:51,046 : INFO : tempCodeRunnerFile : main : Extracting csv file path
+2023-04-23 22:36:51,046 : INFO : tempCodeRunnerFile : main : Extracting xml file download path
+2023-04-23 22:36:51,050 : INFO : tempCodeRunnerFile : main : Extracting AWS s3 bucket resource information
+2023-04-23 22:36:51,050 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 22:36:51,050 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 22:36:51,820 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 22:36:51,827 : INFO : tempCodeRunnerFile : main : Calling parse_source_xml function
+2023-04-23 22:36:51,827 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-23 22:36:51,830 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-23 22:36:51,830 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 22:36:51,830 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-23 22:36:51,830 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 22:36:51,830 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-23 22:36:51,830 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-23 22:36:51,830 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 22:36:51,830 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-23 22:38:14,824 : INFO : helper_functions : download : xml file downloaded
+2023-04-23 22:38:14,824 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-23 22:38:15,486 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-23 22:38:15,486 : INFO : tempCodeRunnerFile : main : Calling create csv function
+2023-04-23 22:38:15,486 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-23 22:38:17,319 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-23 22:38:17,319 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-23 22:38:30,492 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-23 22:38:30,645 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-23 22:38:30,894 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-23 22:38:32,051 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 22:38:33,209 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Invalid endpoint: https://s3..amazonaws.com
+2023-04-23 22:53:27,505 : INFO : tempCodeRunnerFile : load_config : loading Config file.
+2023-04-23 22:53:27,505 : INFO : tempCodeRunnerFile : load_config : Config file loaded successfully.
+2023-04-23 22:53:27,505 : INFO : tempCodeRunnerFile : main : Extracting xml source file url
+2023-04-23 22:53:27,505 : INFO : tempCodeRunnerFile : main : Extracting csv file path
+2023-04-23 22:53:27,505 : INFO : tempCodeRunnerFile : main : Extracting xml file download path
+2023-04-23 22:53:27,505 : INFO : tempCodeRunnerFile : main : Extracting AWS s3 bucket resource information
+2023-04-23 22:53:27,505 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 22:53:27,510 : INFO : functions : download : Downloading the xml file.
+2023-04-23 22:53:31,445 : INFO : functions : download : xml file downloaded
+2023-04-23 22:53:31,445 : INFO : tempCodeRunnerFile : main : Calling parse_source_xml function
+2023-04-23 22:53:31,445 : INFO : functions : parse_source_xml : Loading the xml file.
+2023-04-23 22:53:31,485 : INFO : functions : parse_source_xml : Parsing the xml file.
+2023-04-23 22:53:31,485 : INFO : functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 22:53:31,486 : INFO : functions : parse_source_xml : Extracting the file type
+2023-04-23 22:53:31,486 : INFO : functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 22:53:31,486 : INFO : functions : parse_source_xml : Extracting the file name
+2023-04-23 22:53:31,486 : INFO : functions : parse_source_xml : Extracting the file download link
+2023-04-23 22:53:31,486 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 22:53:31,486 : INFO : functions : download : Downloading the xml file.
+2023-04-23 22:54:37,599 : INFO : functions : download : xml file downloaded
+2023-04-23 22:54:37,599 : INFO : functions : unzip_file : Extracting the compressed file
+2023-04-23 22:54:38,575 : INFO : functions : unzip_file : Compressed file extracted
+2023-04-23 22:54:38,575 : INFO : tempCodeRunnerFile : main : Calling create csv function
+2023-04-23 22:54:38,575 : INFO : functions : create_csv : Loading the xml file
+2023-04-23 22:54:40,816 : INFO : functions : create_csv : Parsing the xml file...
+2023-04-23 22:54:40,816 : INFO : functions : create_csv : Extracting the required data from xml
+2023-04-23 22:54:59,448 : INFO : functions : create_csv : All the required data extracted from xml file
+2023-04-23 22:54:59,742 : INFO : functions : create_csv : Dropping empty rows
+2023-04-23 22:55:00,226 : INFO : functions : create_csv : Creating the CSV file
+2023-04-23 22:55:01,895 : INFO : functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 22:55:02,595 : ERROR : functions : aws_s3_upload : Error occurred while extracting - Invalid endpoint: https://s3..amazonaws.com
+2023-04-23 22:59:31,668 : INFO : tempCodeRunnerFile : load_config : loading Config file.
+2023-04-23 22:59:31,669 : INFO : tempCodeRunnerFile : load_config : Config file loaded successfully.
+2023-04-23 22:59:31,669 : INFO : tempCodeRunnerFile : main : Extracting xml source file url
+2023-04-23 22:59:31,670 : INFO : tempCodeRunnerFile : main : Extracting csv file path
+2023-04-23 22:59:31,670 : INFO : tempCodeRunnerFile : main : Extracting xml file download path
+2023-04-23 22:59:31,670 : INFO : tempCodeRunnerFile : main : Extracting AWS s3 bucket resource information
+2023-04-23 22:59:31,670 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 22:59:31,670 : INFO : functions : download : Downloading the xml file.
+2023-04-23 22:59:33,442 : INFO : functions : download : xml file downloaded
+2023-04-23 22:59:33,449 : INFO : tempCodeRunnerFile : main : Calling parse_source_xml function
+2023-04-23 22:59:33,449 : INFO : functions : parse_source_xml : Loading the xml file.
+2023-04-23 22:59:33,454 : INFO : functions : parse_source_xml : Parsing the xml file.
+2023-04-23 22:59:33,454 : INFO : functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 22:59:33,454 : INFO : functions : parse_source_xml : Extracting the file type
+2023-04-23 22:59:33,454 : INFO : functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 22:59:33,454 : INFO : functions : parse_source_xml : Extracting the file name
+2023-04-23 22:59:33,454 : INFO : functions : parse_source_xml : Extracting the file download link
+2023-04-23 22:59:33,454 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 22:59:33,457 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:00:26,759 : INFO : functions : download : xml file downloaded
+2023-04-23 23:00:26,763 : INFO : functions : unzip_file : Extracting the compressed file
+2023-04-23 23:00:27,940 : INFO : functions : unzip_file : Compressed file extracted
+2023-04-23 23:00:27,940 : INFO : tempCodeRunnerFile : main : Calling create csv function
+2023-04-23 23:00:27,940 : INFO : functions : create_csv : Loading the xml file
+2023-04-23 23:00:30,026 : INFO : functions : create_csv : Parsing the xml file...
+2023-04-23 23:00:30,028 : INFO : functions : create_csv : Extracting the required data from xml
+2023-04-23 23:00:50,365 : INFO : functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:00:50,657 : INFO : functions : create_csv : Dropping empty rows
+2023-04-23 23:00:51,077 : INFO : functions : create_csv : Creating the CSV file
+2023-04-23 23:00:52,698 : INFO : functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:00:53,383 : ERROR : functions : aws_s3_upload : Error occurred while extracting - Invalid endpoint: https://s3..amazonaws.com
+2023-04-23 23:09:17,385 : INFO : tempCodeRunnerFile : load_config : loading Config file.
+2023-04-23 23:09:17,396 : INFO : tempCodeRunnerFile : load_config : Config file loaded successfully.
+2023-04-23 23:09:17,396 : INFO : tempCodeRunnerFile : main : Extracting xml source file url
+2023-04-23 23:09:17,396 : INFO : tempCodeRunnerFile : main : Extracting csv file path
+2023-04-23 23:09:17,396 : INFO : tempCodeRunnerFile : main : Extracting xml file download path
+2023-04-23 23:09:17,396 : INFO : tempCodeRunnerFile : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:09:17,396 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 23:09:17,396 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:09:18,250 : INFO : functions : download : xml file downloaded
+2023-04-23 23:09:18,250 : INFO : tempCodeRunnerFile : main : Calling parse_source_xml function
+2023-04-23 23:09:18,250 : INFO : functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:09:18,251 : INFO : functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:09:18,251 : INFO : functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:09:18,251 : INFO : functions : parse_source_xml : Extracting the file type
+2023-04-23 23:09:18,251 : INFO : functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:09:18,251 : INFO : functions : parse_source_xml : Extracting the file name
+2023-04-23 23:09:18,251 : INFO : functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:09:18,251 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 23:09:18,251 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:34:32,434 : INFO : tempCodeRunnerFile : load_config : loading Config file.
+2023-04-23 23:34:32,434 : INFO : tempCodeRunnerFile : load_config : Config file loaded successfully.
+2023-04-23 23:34:32,434 : INFO : tempCodeRunnerFile : main : Extracting xml source file url
+2023-04-23 23:34:32,434 : INFO : tempCodeRunnerFile : main : Extracting csv file path
+2023-04-23 23:34:32,434 : INFO : tempCodeRunnerFile : main : Extracting xml file download path
+2023-04-23 23:34:32,434 : INFO : tempCodeRunnerFile : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:34:32,434 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 23:34:32,434 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:34:33,185 : INFO : functions : download : xml file downloaded
+2023-04-23 23:34:33,185 : INFO : tempCodeRunnerFile : main : Calling parse_source_xml function
+2023-04-23 23:34:33,185 : INFO : functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:34:33,185 : INFO : functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:34:33,185 : INFO : functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:34:33,185 : INFO : functions : parse_source_xml : Extracting the file type
+2023-04-23 23:34:33,185 : INFO : functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:34:33,185 : INFO : functions : parse_source_xml : Extracting the file name
+2023-04-23 23:34:33,185 : INFO : functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:34:33,185 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 23:34:33,185 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:34:51,608 : INFO : functions : download : xml file downloaded
+2023-04-23 23:34:51,610 : INFO : functions : unzip_file : Extracting the compressed file
+2023-04-23 23:34:52,569 : INFO : functions : unzip_file : Compressed file extracted
+2023-04-23 23:34:52,569 : INFO : tempCodeRunnerFile : main : Calling create csv function
+2023-04-23 23:34:52,569 : INFO : functions : create_csv : Loading the xml file
+2023-04-23 23:34:54,751 : INFO : functions : create_csv : Parsing the xml file...
+2023-04-23 23:34:54,751 : INFO : functions : create_csv : Extracting the required data from xml
+2023-04-23 23:35:11,794 : INFO : functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:35:12,048 : INFO : functions : create_csv : Dropping empty rows
+2023-04-23 23:35:12,413 : INFO : functions : create_csv : Creating the CSV file
+2023-04-23 23:35:13,868 : INFO : functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:35:14,082 : ERROR : functions : aws_s3_upload : Error occurred while extracting - Provided region_name '"EU (Stockholm) eu-north-1"' doesn't match a supported format.
+2023-04-23 23:38:00,878 : INFO : tempCodeRunnerFile : load_config : loading Config file.
+2023-04-23 23:38:00,889 : INFO : tempCodeRunnerFile : load_config : Config file loaded successfully.
+2023-04-23 23:38:00,889 : INFO : tempCodeRunnerFile : main : Extracting xml source file url
+2023-04-23 23:38:00,889 : INFO : tempCodeRunnerFile : main : Extracting csv file path
+2023-04-23 23:38:00,889 : INFO : tempCodeRunnerFile : main : Extracting xml file download path
+2023-04-23 23:38:00,889 : INFO : tempCodeRunnerFile : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:38:00,889 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 23:38:00,889 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:38:01,808 : INFO : functions : download : xml file downloaded
+2023-04-23 23:38:01,810 : INFO : tempCodeRunnerFile : main : Calling parse_source_xml function
+2023-04-23 23:38:01,810 : INFO : functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:38:01,811 : INFO : functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:38:01,811 : INFO : functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:38:01,811 : INFO : functions : parse_source_xml : Extracting the file type
+2023-04-23 23:38:01,811 : INFO : functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:38:01,811 : INFO : functions : parse_source_xml : Extracting the file name
+2023-04-23 23:38:01,811 : INFO : functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:38:01,811 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 23:38:01,811 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:38:11,117 : INFO : functions : download : xml file downloaded
+2023-04-23 23:38:11,117 : INFO : functions : unzip_file : Extracting the compressed file
+2023-04-23 23:38:11,654 : INFO : functions : unzip_file : Compressed file extracted
+2023-04-23 23:38:11,654 : INFO : tempCodeRunnerFile : main : Calling create csv function
+2023-04-23 23:38:11,654 : INFO : functions : create_csv : Loading the xml file
+2023-04-23 23:38:13,992 : INFO : functions : create_csv : Parsing the xml file...
+2023-04-23 23:38:13,993 : INFO : functions : create_csv : Extracting the required data from xml
+2023-04-23 23:38:23,335 : INFO : functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:38:23,517 : INFO : functions : create_csv : Dropping empty rows
+2023-04-23 23:38:23,744 : INFO : functions : create_csv : Creating the CSV file
+2023-04-23 23:38:24,663 : INFO : functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:38:24,762 : ERROR : functions : aws_s3_upload : Error occurred while extracting - Provided region_name 'EU (Stockholm) eu-north-1' doesn't match a supported format.
+2023-04-23 23:39:01,177 : INFO : tempCodeRunnerFile : load_config : loading Config file.
+2023-04-23 23:39:01,188 : INFO : tempCodeRunnerFile : load_config : Config file loaded successfully.
+2023-04-23 23:39:01,188 : INFO : tempCodeRunnerFile : main : Extracting xml source file url
+2023-04-23 23:39:01,188 : INFO : tempCodeRunnerFile : main : Extracting csv file path
+2023-04-23 23:39:01,188 : INFO : tempCodeRunnerFile : main : Extracting xml file download path
+2023-04-23 23:39:01,188 : INFO : tempCodeRunnerFile : main : Extracting AWS s3 bucket resource information
+2023-04-23 23:39:01,188 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 23:39:01,188 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:39:01,962 : INFO : functions : download : xml file downloaded
+2023-04-23 23:39:01,962 : INFO : tempCodeRunnerFile : main : Calling parse_source_xml function
+2023-04-23 23:39:01,962 : INFO : functions : parse_source_xml : Loading the xml file.
+2023-04-23 23:39:01,966 : INFO : functions : parse_source_xml : Parsing the xml file.
+2023-04-23 23:39:01,966 : INFO : functions : parse_source_xml : Traversing all the doc elements.
+2023-04-23 23:39:01,967 : INFO : functions : parse_source_xml : Extracting the file type
+2023-04-23 23:39:01,967 : INFO : functions : parse_source_xml : Match found for file type DLTINS
+2023-04-23 23:39:01,967 : INFO : functions : parse_source_xml : Extracting the file name
+2023-04-23 23:39:01,968 : INFO : functions : parse_source_xml : Extracting the file download link
+2023-04-23 23:39:01,968 : INFO : tempCodeRunnerFile : main : Calling download function
+2023-04-23 23:39:01,968 : INFO : functions : download : Downloading the xml file.
+2023-04-23 23:39:11,285 : INFO : functions : download : xml file downloaded
+2023-04-23 23:39:11,285 : INFO : functions : unzip_file : Extracting the compressed file
+2023-04-23 23:39:11,847 : INFO : functions : unzip_file : Compressed file extracted
+2023-04-23 23:39:11,847 : INFO : tempCodeRunnerFile : main : Calling create csv function
+2023-04-23 23:39:11,847 : INFO : functions : create_csv : Loading the xml file
+2023-04-23 23:39:14,161 : INFO : functions : create_csv : Parsing the xml file...
+2023-04-23 23:39:14,161 : INFO : functions : create_csv : Extracting the required data from xml
+2023-04-23 23:39:24,753 : INFO : functions : create_csv : All the required data extracted from xml file
+2023-04-23 23:39:24,925 : INFO : functions : create_csv : Dropping empty rows
+2023-04-23 23:39:25,250 : INFO : functions : create_csv : Creating the CSV file
+2023-04-23 23:39:26,802 : INFO : functions : aws_s3_upload : Creating S3 resource object
+2023-04-23 23:39:27,527 : INFO : functions : aws_s3_upload : Uploading the file to s3 bucket
+2023-04-23 23:39:55,885 : INFO : functions : aws_s3_upload : File uploaded successfully to s3 bucket

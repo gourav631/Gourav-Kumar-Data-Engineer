@@ -21,6 +21,7 @@ unittest.py: A testing file for the tasks.
 # Configuration
 You need to provide the following configurations before running the script:
 
+
 BUCKET_NAME: Name of the AWS S3 bucket where the CSV file will be uploaded.
 
 ZIP_URL: URL of the zip file containing the XML file to be parsed.
